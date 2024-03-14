@@ -1,0 +1,35 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  .swim-lanes {
+    min-height: 60vh;
+  }
+  
+  .task-card {
+    margin: 0 auto;
+  }
+  
+  .task-card:hover {
+    cursor: grab;
+  }
+  #taskForm label{
+    display:block;
+    margin-bottom:5px;
+  }
+  #taskForm input[type="text"],
+  #taskForm input[type="date"]{
+    width:100%;
+    padding:5px;
+    margin-bottom:10px;
+  }
+  .modal-footer{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .modal-header h5{
+    text-align: center;
+  }
+  
